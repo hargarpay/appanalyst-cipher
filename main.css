@@ -1,0 +1,91 @@
+
+#wrapper{
+	width: 100%;
+	max-width: 450px;
+	margin: 20px auto;
+}
+
+#result{
+	background: #eeeeee;
+	padding: 20px;
+}
+
+.row{
+	padding:0 10px;
+	text-align: center;
+}
+
+.message{
+	color:red;
+}
+
+.sm6{
+	width: 50%;
+	display: inline;
+}
+
+.sm12{
+	width:100%;
+}
+
+h1,h3{
+	font-family: cursive;
+}
+
+.form-control{
+
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    margin-bottom: 20px;
+}
+
+button{
+	color: #FFF;
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background: #f1b608;
+    box-shadow: 0 2px #006db1;
+    -webkit-box-shadow: 0 2px #006db1;
+    -o-box-shadow: 0 2px #006db1;
+    -moz-box-shadow: 0 2px #006db1;
+    -ms-box-shadow: 0 2px #006db1;
+    cursor:pointer;
+}
+
+#decrypt{
+	background: #006db1;
+	box-shadow: 0 2px #f1b608;
+	-webkit-box-shadow: 0 2px #f1b608;
+	-o-box-shadow: 0 2px #f1b608;
+	-moz-box-shadow: 0 2px #f1b608;
+	-ms-box-shadow: 0 2px #f1b608;
+
+}
+
+
+@media screen and (max-width: 767px) {
+	.sm6{
+		width: 100%;
+	}
+}
